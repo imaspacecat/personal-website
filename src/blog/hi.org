@@ -1,0 +1,12 @@
+---
+title: hi
+subtitle: punycode is cool
+tags: [blog, emacs]
+date: 2025-02-17
+layout: post
+---
+#+OPTIONS: toc:nil num:nil
+
+** λ.me
+punycode lets you put special characters in a url.
+very awesome.
