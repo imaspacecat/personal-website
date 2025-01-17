@@ -1,9 +1,11 @@
+#+BEGIN_EXPORT ignore
 ---
 title: Goodbye Markdown...
 tags: [blog]
 date: 2024-02-16
 layout: post
 ---
+#+END_EXPORT
 
 ## For the record
 
