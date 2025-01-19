@@ -7,7 +7,7 @@ layout: post
 ---
 #+OPTIONS: toc:nil num:nil
 ** λ.cool
-punycode lets you put special characters in a url.
+[[https://en.wikipedia.org/wiki/Punycode][punycode]] lets you put special characters in a url.
 very awesome.
 
 i originally intended to buy *λ.me*, which [[https://porkbun.com/][porkbun]] listed as available. unfortunately, *.me* domains
@@ -16,7 +16,7 @@ do not support the greek ):
 here is a list of all the domains that support Greek characters[fn:1], sorted by length and accompanied by porkbun pricing[fn:2], 
 so that you too, may have a greek character in your domain (:
 
-| Suffix | Registration | Renewal | Transfer |
+| Domain | Registration | Renewal | Transfer |
 |--------+--------------+---------+----------|
 | cc | 3.40$ | 8.55$ | 8.55$ |
 | pw | 4.43$ | 15.76$ | 15.76$ |
