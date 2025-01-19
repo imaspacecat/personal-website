@@ -32,9 +32,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      # Create .nojekyll file
-      - name: Create .nojekyll file
-        run: echo > ./target/.nojekyll
+      # Move to target directory and create .nojekyll file
+      - name: Prepare deployment
+        run: |
+          echo > ./target/.nojekyll
 
       # Setup GitHub Pages environment
       - name: Setup Pages
@@ -45,7 +46,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Specify the path to the /target directory
-          path: './target'
+          path: './target/'
 
       # Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
