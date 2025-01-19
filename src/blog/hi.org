@@ -11,7 +11,7 @@ layout: post
 very awesome.
 
 i originally intended to buy *λ.me*, which [[https://porkbun.com/][porkbun]] listed as available. unfortunately, *.me* domains
-do not support the greek ):
+do not support greek ):
 
 here is a list of all the domains that support Greek characters[fn:1], sorted by length and accompanied by porkbun pricing[fn:2], 
 so that you too, may have a greek character in your domain (:
