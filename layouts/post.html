@@ -10,6 +10,15 @@ layout: base
         {% if page.cover-img %}
         <img class="cover-img" src="{{ page.cover-img | absolute_url }}">
         {% endif %}
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const contentLinks = document.querySelectorAll('.layout-{{ page.layout }} a');
+                contentLinks.forEach(link => {
+                    link.setAttribute('target', '_blank');
+                });
+            });
+        </script>
     </header>
     {{ content }}
 </div>
